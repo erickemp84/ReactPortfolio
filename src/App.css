@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*This is where the navbar CSS starts.*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%; 
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px){
+  .nav-links{
+      width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  body {
+      overflow-x: hidden;
+  }
+  .nav-links{
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh;
+      background-color: rgb(71, 69, 69);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+      opacity: 0;
+  }
+  .burger {
+      display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+  from{
+      opacity: 0;
+      transform: translate(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translate(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+
+/*This is where the navbar CSS ends. */
+
+/* This is where the Home section starts. */
+
+.home-main {
+  height: 91vh;
+  width: 100%;
+}
+
+.home-left {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.home-right {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.home-left img {
+  height: 110%;
+}
+
+.home-text {
+  width: 700px;
+  margin-top: 375px;
+  margin-left: 180px;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+/*This is where the home section ends. */
+
+/*This is where the About section starts. */
+
+.about-main {
+  height: 91vh;
+  width: 100%;
+}
+
+.about-left {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.about-right {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about-left img {
+  height: 110%;
+}
+
+.about-text {
+  width: 800px;
+  margin-top: 240px;
+  margin-left: 120px;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.about-text p {
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+/*This is where the About section ends. */
+
+/*This is where the Projects section starts. */
+
+.projects-main {
+  height: 91vh;
+  width: 100%;
+}
+
+.projects-left {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.projects-right {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.projects-left img {
+  height: 100%;
+}
+
+.projects-text {
+  width: 600px;
+  margin-top: 350px;
+  margin-left: 200px;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.project-text p {
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+/*This is where the Projects section ends. */
+
+/*This is where the Contact section starts. */
+
+.contact-main {
+  height: 91vh;
+  width: 100%;
+}
+
+.contact-left {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.contact-right {
+  height: 91vh;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-left img {
+  position: relative;
+  right: 270px;
+  height: 100%;
+}
+
+.contact-text {
+  width: 600px;
+  margin-top: 350px;
+  margin-left: 250px;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.contact-text p {
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+/*This is where the Contact section ends. */
