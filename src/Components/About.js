@@ -1,5 +1,4 @@
 import React from 'react';
-import {useSpring, animated} from 'react-spring';
 import gadgets from '../Assets/gadgets.jpg';
 
 const About = () => {
@@ -8,7 +7,7 @@ const About = () => {
 
         <div class="about-main">
             <div class="about-left">
-                <img src={gadgets} />
+                <img src={gadgets} alt="some tech items" />
             </div>
             <div className="about-right">
                 <div className="about-text">

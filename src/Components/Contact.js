@@ -7,7 +7,7 @@ const Contact = () => {
 
         <div class="contact-main">
         <div class="contact-left">
-            <img src={contact} />
+            <img src={contact} alt="a phone with some text on screen" />
         </div>
     <div className="contact-right">
         <div className="contact-text">

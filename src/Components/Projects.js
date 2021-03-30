@@ -7,7 +7,7 @@ const Projects = () => {
 
         <div class="projects-main">
             <div class="projects-left">
-                <img src={work} />
+                <img src={work} alt="typing on a laptop" />
             </div>
         <div className="projects-right">
             <div className="projects-text">
