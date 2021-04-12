@@ -277,16 +277,34 @@ nav {
 .project-links {
   margin-left: 200px;
   margin-top: 40px;
+  animation: fadeIn2 2s ease;
 }
 
 .project-links a {
   text-decoration: none;
   color: black;
-  transition: .3s;
 }
 
 .project-links a:hover {
   color: teal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {  
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*This is where the Projects section ends. */
@@ -320,7 +338,7 @@ nav {
 
 .contact-text {
   width: 600px;
-  margin-top: 350px;
+  margin-top: 280px;
   margin-left: 250px;
   font-size: 30px;
   line-height: 60px;
@@ -344,7 +362,19 @@ nav {
 .contact-info {
   margin-left: 250px;
   margin-top: 40px;
+  animation: fadeIn2 2s ease;
 }
+
+@keyframes fadeIn2 {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 
 .contact-info a {
   text-decoration: none;
