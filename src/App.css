@@ -341,4 +341,19 @@ nav {
   }
 }
 
+.contact-info {
+  margin-left: 250px;
+  margin-top: 40px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: black;
+  transition: .3s;
+}
+
+.contact-info a:hover {
+  color: teal;
+}
+
 /*This is where the Contact section ends. */

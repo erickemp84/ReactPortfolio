@@ -16,8 +16,8 @@ const Projects = () => {
                 <p>Here are some projects I've put together.</p>
             </div>
             <div className="project-links">
-                <h2><a href="https://jolly-jackson-1789b0.netlify.app/">Travel Website</a></h2>
-                <h2><a href="https://mystifying-bassi-cfd103.netlify.app/">Task List</a></h2>
+                <h2><a href="https://jolly-jackson-1789b0.netlify.app/" target="_blank" rel="noreferrer noopener">Travel Website</a></h2>
+                <h2><a href="https://mystifying-bassi-cfd103.netlify.app/" target="_blank" rel="noreferrer noopener">Task List</a></h2>
             </div>
         </div>
         </div>
