@@ -11,9 +11,13 @@ const Projects = () => {
             </div>
         <div className="projects-right">
             <div className="projects-text">
-                <h1>Take a look</h1>
-                <h1>at some of my work.</h1>
+                <h1>Take a look at</h1>
+                <h1>some of my work.</h1>
                 <p>Here are some projects I've put together.</p>
+            </div>
+            <div className="project-links">
+                <h2><a href="https://jolly-jackson-1789b0.netlify.app/">Travel Website</a></h2>
+                <h2><a href="https://mystifying-bassi-cfd103.netlify.app/">Task List</a></h2>
             </div>
         </div>
         </div>
