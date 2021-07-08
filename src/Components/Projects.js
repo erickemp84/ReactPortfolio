@@ -18,6 +18,8 @@ const Projects = () => {
             <div className="project-links">
                 <h2><a href="https://jolly-jackson-1789b0.netlify.app/" target="_blank" rel="noreferrer noopener">Travel Website</a></h2>
                 <h2><a href="https://mystifying-bassi-cfd103.netlify.app/" target="_blank" rel="noreferrer noopener">Task List</a></h2>
+                <h2><a href="https://awesome-cori-6bd1b8.netlify.app/" target="_blank" rel="noreferrer noopener">Organization Website</a></h2>
+
             </div>
         </div>
         </div>
